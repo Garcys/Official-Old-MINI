@@ -1,0 +1,20 @@
+{
+  "files": {
+    ".breakpoints": [
+      {
+        "id": "b0bcc1c2-a73c-4c33-9b95-19faae8d5b18",
+        "line": 11,
+        "version": 1,
+        "index": 184
+      }
+    ],
+    "commands/mod/ban.json": [
+      {
+        "id": "61d2b55e-77e2-4427-a91d-2b8239c512f2",
+        "line": 1,
+        "version": 0,
+        "index": 0
+      }
+    ]
+  }
+}
