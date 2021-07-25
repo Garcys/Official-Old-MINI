@@ -1,6 +1,6 @@
 const { Client, Collection } = require('discord.js');
-const { PREFIX } = require('./config');
-const mySecret = process.env['Token'];
+const { PREFIX } = require('./config'); 
+const mySecret = process.env['mySecret']
 
 const bot = new Client({ disableMentions: 'everyone' });
 const fs = require("fs");
@@ -91,3 +91,5 @@ bot.login(mySecret)
 
 
 
+
+/// MADE BY: Upcoming

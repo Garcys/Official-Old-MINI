@@ -28,7 +28,7 @@ module.exports = {
 
 		if (message.content.toLowerCase() === `${prefix}help`) {
 			var log = new Discord.MessageEmbed()
-				.setColor(`##000000`)
+				.setColor(`#d4af37`)
 				.setAuthor("The Help Menu")
 
 				.addField(`** ❯ MODERATION [11]**`, "`Ban`, `Kick`, `lock`, `unlock`, `Unban`,`Mute`, `Purge`, `unmute`")
