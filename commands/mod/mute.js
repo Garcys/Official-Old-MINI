@@ -9,9 +9,9 @@ module.exports = {
     },
     run: async (bot, message, args) => {
         try {
-            if (!message.member.hasPermission("MANAGE_GUILD")) return message.channel.send("**You Dont Have Permmissions To Mute Someone! - [MANAGE_GUILD]**");
+            if (!message.member.hasPermission("MANAGE_ROLES")) return message.channel.send("**You Dont Have Permmissions To Mute Someone! - [MANAGE_ROLES]**");
 
-            if (!message.guild.me.hasPermission("MANAGE_GUILD")) return message.channel.send("**I Don't Have Permissions To Mute Someone! - [MANAGE_GUILD]**")
+            if (!message.guild.me.hasPermission("MANAGE_ROLES")) return message.channel.send("**I Don't Have Permissions To Mute Someone! - [MANAGE_ROLES]**")
             if (!args[0]) return message.channel.send("**Please Enter A User To Be Muted!**");
 
             var mutee = message.mentions.members.first() || message.guild.members.cache.get(args[0]) || message.guild.members.cache.find(r => r.user.username.toLowerCase() === args[0].toLocaleLowerCase()) || message.guild.members.cache.find(ro => ro.displayName.toLowerCase() === args[0].toLocaleLowerCase());

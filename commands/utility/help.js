@@ -31,11 +31,11 @@ module.exports = {
 				.setColor(`#d4af37`)
 				.setAuthor("The Help Menu")
 
-				.addField(`** ❯ MODERATION [11]**`, "`Ban`, `Kick`, `lock`, `unlock`, `Unban`,`Mute`, `Purge`, `unmute`")
+				.addField(`** ❯ MODERATION [9]**`, "`Ban`, `Kick`, `Lock`, `Unlock`, `Unban`,`Mute`, `Purge`, `Unmute`, `Warn`")
 				.addField(`** ❯ SETUP SYSTEM [4]**`, "`setmodlog`, `membercount`, `setmute`, `slowmode`")
 				.addField(`** ❯ MISCELLANEOUS [6]**`, "`help`, `steal`, `uptime`, `av`, `av2`, `stats`")
 				.addField(` ** ❯ LINKS [2]**`, `   [Invite Me](https://discord.com/api/oauth2/authorize?client_id=862501211135016970&permissions=4294967031&scope=bot)` + ` - ` + `[Support Server](https://discord.gg/nPSBygs6He)`)
-				.setFooter("Upcoming Was Here :3")
+				.setFooter("Upcoming is cool B)")
 				.setTimestamp()
 
 			message.channel.send(log);
